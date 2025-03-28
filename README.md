@@ -26,4 +26,7 @@
 ## ✅ Pw Without Purchase Txt Extractor Bot
 
 🥳 Pw Without Purchase Txt Extractor Bot [Click Here](https://t.me/PwTxtExtractorBot)
+
+[Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/xpingpongx/Extractor-V3&template=https://github.com/nhi-batau/ADVANCE-TXT-UPLOADER)
+
  
