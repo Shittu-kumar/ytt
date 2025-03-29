@@ -144,10 +144,12 @@ image_urls = [
 random_image_url = random.choice(image_urls) 
 # Caption for the image
 caption = (
-        "**ʜᴇʟʟᴏ👋**\n\n"
-        "☆ **ɪ ᴀᴍ ᴛxᴛ ᴛᴏ ᴠɪᴅᴇᴏ ᴜᴘʟᴏᴀᴅᴇʀ ʙᴏᴛ.**\n"
-        "☆ **ғᴏʀ ᴜsᴇ ᴍᴇ sᴇɴᴅ /bhumihar.\n"
-        "☆ **ғᴏʀ ɢᴜɪᴅᴇ sᴇɴᴅ /help."
+        "**𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!**\n\n"
+        "➠ **𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐛𝐲 𝗕𝗛𝗨𝗠𝗜𝗛𝗔𝗥**\n"
+        "➠ **Can Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
+        "➠ **For Guide Use Command /help 📖**\n\n"
+        "➠ **Use /bhumihar Command to Download From TXT File** 📄\n\n"
+        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** 🇧 🇭 🇺 🇲 🇮 🇭 🇦 🇷 "
 )
     
 # Start command handler
