@@ -149,7 +149,7 @@ caption = (
         "➠ **Can Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
         "➠ **For Guide Use Command /help 📖**\n\n"
         "➠ **Use /bhumihar Command to Download From TXT File** 📄\n\n"
-        "➠ **𝐌𝐚𝐝𝐞 𝐁𝐲:** 🇧 🇭 🇺 🇲 🇮 🇭 🇦 🇷 "
+        "➠ <blockquote>**𝐌𝐚𝐝𝐞 𝐁𝐲:** 🇧 🇭 🇺 🇲 🇮 🇭 🇦 🇷</blockquote>"
 )
     
 # Start command handler
