@@ -6,7 +6,7 @@
 
 ## Credit
 
-🥳 Credit Goes To [JustIItian](https://t.me/Thebhumihar)
+🥳 Credit Goes To [JustIItian](https://t.me/Tum_Ek_Khwab)
 
   
 ## 🔥 Commands
