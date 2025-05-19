@@ -1,12 +1,12 @@
 <h1 align="center">
-  🇮🇳 BHUMIHAR ᴛxᴛ ᴜᴘʟᴏᴀᴅᴇʀ 🇮🇳
+  🇮🇳 𝐉𝐮𝐬𝐭𝐈𝐈𝐓𝐢𝐚𝐧 ᴛxᴛ ᴜᴘʟᴏᴀᴅᴇʀ 🇮🇳
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Txt+Uploader+Bot+!)
 
 ## Credit
 
-🥳 Credit Goes To [Bhumihar](https://t.me/Thebhumihar)
+🥳 Credit Goes To [JustIItian](https://t.me/Thebhumihar)
 
   
 ## 🔥 Commands
