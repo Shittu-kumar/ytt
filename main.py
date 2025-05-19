@@ -109,7 +109,7 @@ async def sudo_command(bot: Client, message: Message):
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𝐎𝐖𝐍𝐄𝐑🗿" ,url=f"https://t.me/Thebhumihar") ],
+                    InlineKeyboardButton("𝐎𝐖𝐍𝐄𝐑🗿" ,url=f"https://t.me/Tum_Ek_Khwab") ],
                     [
                     InlineKeyboardButton("🔔𝐔𝐏𝐃𝐀𝐓𝐄 𝐂𝐇𝐀𝐍𝐍𝐄𝐋🔔" ,url="https://t.me/BHUMIHAR_BOTSS") ],
                     [
