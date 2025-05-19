@@ -145,11 +145,11 @@ random_image_url = random.choice(image_urls)
 # Caption for the image
 caption = (
         "**𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!**\n\n"
-        "➠ **𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐛𝐲 𝗕𝗛𝗨𝗠𝗜𝗛𝗔𝗥**\n"
+        "➠ **𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐛𝐲 𝐉𝐮𝐬𝐭𝐈𝐈𝐓𝐢𝐚𝐧**\n"
         "➠ **Can Extract Videos & PDFs From Your Text File and Upload to Telegram!**\n"
         "➠ **For Guide Use Command /help 📖**\n\n"
-        "➠ **Use /bhumihar Command to Download From TXT File** 📄\n\n"
-        "➠ <blockquote>**𝐌𝐚𝐝𝐞 𝐁𝐲:** 🇧 🇭 🇺 🇲 🇮 🇭 🇦 🇷</blockquote>"
+        "➠ **Use /justiitian Command to Download From TXT File** 📄\n\n"
+        "➠ <blockquote>**𝐌𝐚𝐝𝐞 𝐁𝐲:** 🄹🅄🅂🅃🄸🄸🅃🄸🄰🄽</blockquote>"
 )
     
 # Start command handler
@@ -315,7 +315,7 @@ async def edit_txt(client, message: Message):
     try:
         await message.reply_document(
             document=final_file_path,
-            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤🅱︎🅷︎🆄︎🅼︎🅸︎🅷︎🅰︎🆁︎**"
+            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤🅹🆄🆂🆃🅸🅸🆃🅸🅰🅽**"
         )
     except Exception as e:
         await message.reply_text(f"🚨 **Error**: Unable to send the file.\n\nDetails: {e}")
@@ -405,7 +405,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
         file_name = save_to_file(videos, title)
         await message.reply_document(
             document=file_name, 
-            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤𝗕𝗛𝗨𝗠𝗜𝗛𝗔𝗥"
+            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤𝐉𝐮𝐬𝐭𝐈𝐈𝐓𝐢𝐚𝐧"
         )
         os.remove(file_name)
     else:
@@ -427,7 +427,7 @@ async def list_users(client: Client, msg: Message):
 async def help_command(client: Client, msg: Message):
     help_text = (
         "`/start` - Start the bot⚡\n\n"
-        "`/bhumihar` - Download and upload files (sudo)🎬\n\n"
+        "`/justiitian` - Download and upload files (sudo)🎬\n\n"
         "`/restart` - Restart the bot🔮\n\n" 
         "`/stop` - Stop ongoing process🛑\n\n"
         "`/cookies` - Upload cookies file🍪\n\n"
@@ -441,7 +441,7 @@ async def help_command(client: Client, msg: Message):
     await msg.reply_text(help_text)
 
 # Upload command handler
-@bot.on_message(filters.command(["bhumihar"]))
+@bot.on_message(filters.command(["justiitian"]))
 async def upload(bot: Client, m: Message):
     if not is_authorized(m.chat.id):
         await m.reply_text("**🚫You are not authorized to use this bot.\nPlease Contact to Owner to Get Premium**")
@@ -523,7 +523,7 @@ async def upload(bot: Client, m: Message):
     
     
 
-    await editable.edit("𝗡𝗼𝘄 𝗘𝗻𝘁𝗲𝗿 𝗔 𝗖𝗮𝗽𝘁𝗶𝗼𝗻 𝗧𝗼 𝗔𝗱𝗱 𝗖𝗮𝗽𝘁𝗶𝗼𝗻 𝗢𝗻 𝗬𝗼𝘂𝗿 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗙𝗶𝗹𝗲\n\n𝗘𝗴 » `Bhumihar`")
+    await editable.edit("𝗡𝗼𝘄 𝗘𝗻𝘁𝗲𝗿 𝗔 𝗖𝗮𝗽𝘁𝗶𝗼𝗻 𝗧𝗼 𝗔𝗱𝗱 𝗖𝗮𝗽𝘁𝗶𝗼𝗻 𝗢𝗻 𝗬𝗼𝘂𝗿 𝗨𝗽𝗹𝗼𝗮𝗱𝗲𝗱 𝗙𝗶𝗹𝗲\n\n𝗘𝗴 » `JustIItian`")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -660,13 +660,13 @@ async def upload(bot: Client, m: Message):
 
             try:  
 
-                cc = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).𝕭𝖍𝖚𝖒𝖎𝖍𝖆𝖗.mkv\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**\n\n    **━━━━━✦𝕭𝖍𝖚𝖒𝖎𝖍𝖆𝖗✦━━━━━**'
-                #cpw = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).𝕭𝖍𝖚𝖒𝖎𝖍𝖆𝖗.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**'
-                #cyt = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).𝕭𝖍𝖚𝖒𝖎𝖍𝖆𝖗.mp4\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**'
-                cpvod = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).𝕭𝖍𝖚𝖒𝖎𝖍𝖆𝖗.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**\n\n**━━━━━✦𝕭𝖍𝖚𝖒𝖎𝖍𝖆𝖗✦━━━━━**'
-                cimg = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.𝕭𝖍𝖚𝖒𝖎𝖍𝖆𝖗.jpg\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**\n\n**━━━━━✦𝕭𝖍𝖚𝖒𝖎𝖍𝖆𝖗✦━━━━━**'
-                cczip = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.𝕭𝖍𝖚𝖒𝖎𝖍𝖆𝖗.zip\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**\n\n**━━━━━✦𝕭𝖍𝖚𝖒𝖎𝖍𝖆𝖗✦━━━━━**'
-                cc1 = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.𝕭𝖍𝖚𝖒𝖎𝖍𝖆𝖗.pdf\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**\n\n     **━━━━━✦𝕭𝖍𝖚𝖒𝖎𝖍𝖆𝖗✦━━━━━**'
+                cc = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).JustIItian.mkv\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**\n\n    **━━━━━✦𝕁𝕦𝕤𝕥𝕀𝕀𝕥𝕚𝕒𝕟✦━━━━━**'
+                #cpw = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).JustIItian.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**'
+                #cyt = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).JustIItian.mp4\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**'
+                cpvod = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).JustIItian.mkv\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**\n\n**━━━━━✦𝕁𝕦𝕤𝕥𝕀𝕀𝕥𝕚𝕒𝕟✦━━━━━**'
+                cimg = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.JustIItian.jpg\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**\n\n**━━━━━✦𝕁𝕦𝕤𝕥𝕀𝕀𝕥𝕚𝕒𝕟✦━━━━━**'
+                cczip = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.JustIItian.zip\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**\n\n**━━━━━✦𝕁𝕦𝕤𝕥𝕀𝕀𝕥𝕚𝕒𝕟✦━━━━━**'
+                cc1 = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n**𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.JustIItian.pdf\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**\n\n     **━━━━━✦𝕁𝕦𝕤𝕥𝕀𝕀𝕥𝕚𝕒𝕟✦━━━━━**'
           
                 if "drive" in url:
                     try:
@@ -783,7 +783,7 @@ async def upload(bot: Client, m: Message):
                 else:
                     emoji_message = await show_random_emojis(message)
                     remaining_links = len(links) - count
-                    Show = f"**🍁 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 🍁**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n🗂️ɪɴᴅᴇx » {str(count)}/{len(links)}\n\n🌐ʀᴇᴍᴀɪɴɪɴɢ ᴜʀʟ » {remaining_links}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🔗ᴜʀʟ » ** `ᴋʏᴀ ᴋʀᴏɢᴇ ᴅᴇᴋʜ ᴋʀ`\n\n🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤ 𝗕𝗛𝗨𝗠𝗜𝗛𝗔𝗥"
+                    Show = f"**🍁 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 🍁**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n🗂️ɪɴᴅᴇx » {str(count)}/{len(links)}\n\n🌐ʀᴇᴍᴀɪɴɪɴɢ ᴜʀʟ » {remaining_links}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🔗ᴜʀʟ » ** `ᴋʏᴀ ᴋʀᴏɢᴇ ᴅᴇᴋʜ ᴋʀ`\n\n🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤ 𝐉𝐮𝐬𝐭𝐈𝐈𝐓𝐢𝐚𝐧"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -816,7 +816,7 @@ async def upload(bot: Client, m: Message):
                        f"🔹𝗩𝗶𝗱𝗲𝗼 » {video_count}\n🔹𝗣𝗱𝗳 » {pdf_count}\n🔹𝗜𝗺𝗴 » {img_count}\n🔹𝗭𝗶𝗽 » {zip_count}\n🔹𝗙𝗮𝗶𝗹𝗲𝗱 𝗨𝗿𝗹 » {failed_count}\n\n"
                        f"▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n"
                        f"✅𝗦𝗧𝗔𝗧𝗨𝗦 » 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗`")
-    await m.reply_text(f"<pre><code>📥𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤『{raw_text3}』</code></pre>")
+    await m.reply_text(f"<pre><code>📥𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆-『{raw_text3}』</code></pre>")
     await m.reply_text(f"<pre><code>『😏𝗥𝗲𝗮𝗰𝘁𝗶𝗼𝗻 𝗞𝗼𝗻 𝗗𝗲𝗴𝗮😏』</code></pre>")                 
 
 bot.run()
