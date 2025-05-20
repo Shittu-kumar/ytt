@@ -111,9 +111,9 @@ keyboard = InlineKeyboardMarkup(
                 [
                     InlineKeyboardButton("𝐎𝐖𝐍𝐄𝐑🗿" ,url=f"https://t.me/Tum_Ek_Khwab") ],
                     [
-                    InlineKeyboardButton("🔔𝐔𝐏𝐃𝐀𝐓𝐄 𝐂𝐇𝐀𝐍𝐍𝐄𝐋🔔" ,url="https://t.me/BHUMIHAR_BOTSS") ],
+                    InlineKeyboardButton("🔔𝐔𝐏𝐃𝐀𝐓𝐄 𝐂𝐇𝐀𝐍𝐍𝐄𝐋🔔" ,url="https://t.me/Tum_Ek_Khwab") ],
                     [
-                    InlineKeyboardButton("🦋𝐎𝐖𝐍𝐄𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋🦋" ,url="https://t.me/BHUMIHAR_BOTSS")                              
+                    InlineKeyboardButton("🦋𝐎𝐖𝐍𝐄𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋🦋" ,url="https://t.me/Tum_Ek_Khwab")                              
                 ],           
             ]
       )
@@ -405,7 +405,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
         file_name = save_to_file(videos, title)
         await message.reply_document(
             document=file_name, 
-            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 -𝐉𝐮𝐬𝐭𝐈𝐈𝐓𝐢𝐚𝐧"
+            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆-𝐉𝐮𝐬𝐭𝐈𝐈𝐓𝐢𝐚𝐧"
         )
         os.remove(file_name)
     else:
