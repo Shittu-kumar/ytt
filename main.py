@@ -598,7 +598,8 @@ async def upload(bot: Client, m: Message):
             elif "https://transcoded-videos.classx.co.in/" in url:
                 url = f"https://hls-proxy-jwmi.onrender.com/stream?url={url}"
 
-
+            elif "https://transcoded-videos.livelearn.in/" in url:
+                url = f"https://hls-proxy-jwmi.onrender.com/stream?url={url}"
          
               #elif '/master.mpd' in url:
              #id =  url.split("/")[-2]
