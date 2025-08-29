@@ -595,7 +595,11 @@ async def upload(bot: Client, m: Message):
                 name = f'{str(count).zfill(3)}) {name1[:60]}'
                 cmd = f'yt-dlp -o "{name}.mp4" "{url}"'
 
-            
+            elif "https://transcoded-videos.classx.co.in/" in url:
+                url = f"https://hls-proxy-jwmi.onrender.com/stream?url={url}"
+
+
+         
               #elif '/master.mpd' in url:
              #id =  url.split("/")[-2]
              #url = f"https://player.muftukmall.site/?id={id}"
